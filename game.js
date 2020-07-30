@@ -177,7 +177,7 @@ Sprite = function () {
       this.preMove(delta);
     }
 
-    this.vel.x += this.acc.x * delta;
+    this.vel.x += this.acc.x * delta; // i just commented this line in order to test GitHub's pull request feature
     this.vel.y += this.acc.y * delta;
     this.x += this.vel.x * delta;
     this.y += this.vel.y * delta;
